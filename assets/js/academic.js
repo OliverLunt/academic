@@ -39,7 +39,7 @@
       $('body').addClass('scrolling');
       $('html, body').animate({
         scrollTop: elementOffset
-      }, 400, function () {
+      }, 200, function () {
         $('body').removeClass('scrolling');
       });
     } else {
@@ -92,7 +92,7 @@
 
       $('html, body').animate({
         scrollTop: elementOffset
-      }, 400);
+      }, 200);
     }
   });
 
@@ -689,7 +689,7 @@
       event.preventDefault();
       $('html, body').animate({
         'scrollTop': 0
-      }, 400, function () {
+      }, 200, function () {
         window.location.hash = "";
       });
     });
